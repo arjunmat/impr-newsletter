@@ -1,5 +1,19 @@
-# impr-newsletter
-A WordPress plugin to enable your visitors to subscribe to your newsletter
+=== Plugin Name ===
+Contributors: mathai
+Donate link: http://improvi.in/donate
+Tags: newsletter, signup, list
+Requires at least: 3.0.1
+Tested up to: 4.1
+Stable tag: 1.0
+License: GPLv2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+
+A simple AJAX-based plugin to allow users to sign up for your newsletters.
+
+== Description ==
+
+This plugin shows your users a text box where they can enter their email addresses. The email addresses are validated and stored
+into a CSV file which can be used for mailing lists later.
 
 == Installation ==
 
@@ -25,3 +39,19 @@ Yes, you can set parameters such as a class, placeholder text, button text, and 
 = Where do I go to get the list of subscribed email addresses? =
 
 Navigate to Settings > Improvi Newsletter Signups and click on the Download CSV link.
+
+== Screenshots ==
+
+1. Default View
+2. Successful subscription
+3. Email Validation
+
+== Changelog ==
+
+= 1.0 =
+* Initial version
+
+== Upgrade Notice ==
+
+= 1.0 =
+Initial Version
